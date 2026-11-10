@@ -1,0 +1,127 @@
+Creating a Blender Module for Asset Generation
+I'll outline the key atomic functions needed to create a comprehensive Blender asset creation system. These functions would serve as building blocks that can be sequenced to create complex assets.
+Core Object Creation Functions
+
+Create mesh object (cube, sphere, cylinder, etc.)
+Create curve object
+Create surface
+Create meta object
+Create text object
+Create empty object (for organization/constraints)
+Create collection (for organizing objects)
+Create armature (for rigging)
+Import external model
+
+Transformation Functions
+
+Translate object
+Rotate object
+Scale object
+Apply transformations
+Set pivot point
+Add mirror modifier
+Add array modifier
+Add screw modifier
+Add boolean operation
+
+Mesh Editing Functions
+
+Add vertex
+Add edge
+Add face
+Remove vertex/edge/face
+Extrude region
+Inset face
+Bevel edge/vertex
+Bridge edge loops
+Knife cut
+Loop cut
+Subdivide
+Join objects
+Separate parts
+
+Sculpting Functions
+
+Add sculpt brush stroke
+Smooth surface region
+Inflate/deflate region
+Grab/pull vertices
+Add clay/material
+Mask region
+
+Material Functions
+
+Create material
+Set material properties (diffuse, specular, etc.)
+Add texture
+Create shader node
+Connect shader nodes
+Assign material to object/face
+Create material library
+
+UV Mapping Functions
+
+Unwrap UV
+Set UV seams
+Pack UV islands
+Align UV coordinates
+Export UV layout
+
+Lighting Functions
+
+Add light (point, spot, area, sun)
+Set light properties
+Configure shadow settings
+Add environment lighting
+
+Camera Functions
+
+Add camera
+Set camera properties
+Create camera path
+
+Rendering Functions
+
+Set render settings
+Set output format
+Render frame/animation
+Configure compositor
+
+Animation Functions
+
+Add keyframe
+Create animation path
+Add shape key
+Set animation timing
+Define driver
+Create action
+Add constraints
+
+Rigging Functions
+
+Add bone
+Connect bones
+Set bone constraints
+Create vertex group
+Assign vertices to group
+Weight paint
+Create IK constraint
+
+Physics Functions
+
+Add rigid body
+Add soft body
+Configure cloth simulation
+Add particle system
+Configure fluid simulation
+Add force field
+
+Utility Functions
+
+Save file
+Export model
+Set object properties
+Set scene properties
+Generate documentation
+
+This modular approach would allow for creating high-level asset generation pipelines by sequencing these atomic functions. For example, a character creation pipeline might use functions for mesh creation, modification, rigging, materials, and animation in sequence.RetryDY
